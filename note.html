@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notepad</title>
-    <link rel="stylesheet" href="note.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notepad</title>
+    <link rel="stylesheet" href="note.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>
+            <i class="fa fa-book" style="color: rgb(71, 30, 50); margin-right: 12px"></i>Notes
+        </h1>
+        <button class="btn">
+            <i class="fa fa-edit" style="color: rgb(237, 237, 237); font-size: 20px; margin-right: 12px"></i>Create new
+        </button>
+
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="inputbox">
+                <i class="fa fa-trash"></i>
+            </p> -->
+        </div>
+    </div>
+    <script src="note.js"></script>
 </body>
+
 </html>
